@@ -21,9 +21,9 @@
 
    --imgbg: url("/img/alena-aenami-atlast2k2.jpg");
     
-   --imgcol: linear-gradient(
+   /*--imgcol: linear-gradient(
         rgba(148, 130, 96, .3),
-        rgba(148, 130, 96, .3)
+        rgba(148, 130, 96, .3)*/
     ); 
 }
 @media only screen and (max-width: 68.75em) {
