@@ -19,7 +19,7 @@
     change the --imgcol value 
     to make the filter to your own */
 
-   --imgbg: url(/Bento/img/alena-aenami-atlast2k2.jpg);
+   --imgbg: url("/img/alena-aenami-atlast2k2.jpg");
     
    --imgcol: linear-gradient(
         rgba(148, 130, 96, .3),
