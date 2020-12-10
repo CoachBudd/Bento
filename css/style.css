@@ -19,12 +19,13 @@
     change the --imgcol value 
     to make the filter to your own */
 
-   --imgbg: url("/img/alena-aenami-atlast2k2.jpg");
+ /*  --imgbg: url("/img/alena-aenami-atlast2k2.jpg"); */
     
    /*--imgcol: linear-gradient(
         rgba(148, 130, 96, .3),
-        rgba(148, 130, 96, .3)*/
-    ); 
+        rgba(148, 130, 96, .3)
+    ); */
+    background-image: url("/img/alena-aenami-atlast2k2.jpg");
 }
 @media only screen and (max-width: 68.75em) {
     :root {
@@ -56,7 +57,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--bg);
-    background-image: var(--imgcol), var(--imgbg);
+  /*  background-image: var(--imgcol), var(--imgbg); */
     display: flex;
     align-items: center;
     justify-content: center;
