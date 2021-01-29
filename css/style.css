@@ -22,8 +22,8 @@
     --imgbg: url("/img/alena-aenami-atlast2k2.jpg"); 
     
     --imgcol: linear-gradient(
-        rgba(148, 130, 96, .3),
-        rgba(148, 130, 96, .3)
+        rgba(148, 130, 96, 0.0),
+        rgba(148, 130, 96, 0.0)
     ); 
     background-image: url("/img/alena-aenami-atlast2k2.jpg");
 }
@@ -57,7 +57,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--bg);
-    background-image: var(--imgcol), var(--imgbg); 
+    # background-image: var(--imgcol), var(--imgbg); 
     background-image: url("/img/alena-aenami-atlast2k2.jpg");
     display: flex;
     align-items: center;
